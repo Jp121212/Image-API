@@ -63,13 +63,21 @@ Here is stored the prisma client, so can be imported.
 ├── README.md
 ├── src
 │   ├── controllers
-│   │   └── example.controller.ts
+│   │   └── auth.controller.ts
+│   │   └── images.controller.ts
 │   ├── database
 │   │   └── client.ts
 │   ├── middlewares
+│   │   └── auth.middleware.ts
 │   ├── services
+│   │   └── auth.service.ts
+│   │   └── images.service.ts
+│   │   └── multer.service.ts
+│   │   └── user.service.ts
 │   ├── routes
-│       └── router.ts
+│   │   └── auth.ts
+│   │   └── images.ts
+│   │   └── router.ts
 │   ├── server.ts
 │   └── services
 ├── tsconfig.json
